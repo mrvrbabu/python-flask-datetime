@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello():
     now = datetime.datetime.now()
-    timeString = now.strftime("%Y-%m-%d %H:%M:%S")
+    timeString = now.strftime("%d-%m-%Y %H:%M:%S")
     templateData = {
         'title' : 'HELLO!',
         'time'  : timeString 
