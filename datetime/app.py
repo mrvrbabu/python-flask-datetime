@@ -14,7 +14,7 @@ def hello():
     templateData = {
         'title' : 'Time_n_Date_IST!',
         'now_utc'   : now_utc,
-        'time' : ist_now
+        'time' : now_local
         }
     return render_template('main.html', **templateData)
 
