@@ -1,6 +1,6 @@
 # Python flask app to display IST and UTC time on the browser
 ## Author : Ramesh Babu 
-## Date : 
+## Date : 29 Nov 2022
 ## File : app.py
 ## Type : Python Flask app
 
