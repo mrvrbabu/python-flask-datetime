@@ -1,3 +1,4 @@
+# Python flask app to display IST and UTC time on the browser
 from flask import Flask, render_template
 from datetime import datetime
 from pytz import timezone
