@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Build docker image to be run as container which will show the time and date in browser 
+# Build docker image to be run as container which will show the time and date in browser.
 
 docker build -t pydatetime . 
 
