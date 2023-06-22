@@ -19,7 +19,7 @@ def hello():
     ist_now = now_local.strftime(format)
     templateData = {
         'title' : 'Time_n_Date_IST!',
-        'now_utc'   : now_utc,
+        'now_utc' : now_utc,
         'time' : now_local
         }
     return render_template('main.html', **templateData)
